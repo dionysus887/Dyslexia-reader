@@ -1,0 +1,5 @@
+{
+  "name": "Dyslexia Reader Helper",
+  "description": "An application to assist dyslexic users in reading text more easily by providing customizable display options like fonts, spacing, and color themes, along with a text-to-speech feature powered by Gemini.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Dyslexia Reader Helper",
+  "description": "Helps dyslexic users read web content with customizable fonts, spacing, and colors.",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "fonts/OpenDyslexic-Regular.woff2",
+        "fonts/Lexend-Regular.woff2"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
